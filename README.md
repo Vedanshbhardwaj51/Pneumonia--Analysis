@@ -1,30 +1,50 @@
-Pneumonia Analysis
-Overview
-This project is a web-based application designed to raise awareness about pneumonia and provide an AI-powered tool for analyzing chest X-ray images. The tool uses a Teachable Machine model to predict potential pneumonia indicators from uploaded images or live webcam input.
 
-Features
-Pneumonia Information: Learn about pneumonia, its symptoms, risk factors, and prevention methods.
-Image Analysis: Upload a chest X-ray or CT scan image or use your webcam to analyze the image for potential pneumonia indicators.
-AI-Powered Predictions: The application uses a pre-trained Teachable Machine model to provide predictions.
-User-Friendly Interface: Simple and intuitive interface for easy navigation and usage.
-Technologies Used
+🫁 Pneumonia Analysis
+📌 Overview
+Pneumonia Analysis is a web-based application designed to raise awareness about pneumonia and assist in preliminary diagnosis using artificial intelligence. The tool leverages a pre-trained Teachable Machine model to analyze chest X-ray images or live webcam input and predict possible pneumonia indicators.
+
+🚀 Features
+Educational Resources: Learn about pneumonia, including symptoms, risk factors, and prevention tips.
+
+AI Image Analysis: Upload a chest X-ray/CT scan or use a webcam to detect pneumonia indicators.
+
+Teachable Machine Integration: Uses a trained TensorFlow.js model for real-time analysis.
+
+Responsive Interface: Clean and intuitive UI for a smooth user experience.
+
+🛠️ Technologies Used
 Frontend: HTML, CSS, JavaScript
-AI Model: Teachable Machine (TensorFlow.js)
-Libraries:
+
+AI Model: Teachable Machine (via TensorFlow.js)
+
+Key Libraries:
+
 Teachable Machine Image Library
+
 TensorFlow.js
-How It Works
-The user navigates to the Image Analysis section.
-The user can either:
+
+🧠 How It Works
+Navigate to the Image Analysis section.
+
+Choose an input method:
+
 Upload a chest X-ray or CT scan image.
-Use their webcam to capture a live image of a chest X-ray or CT scan.
-The application processes the image using the Teachable Machine model.
-The results are displayed, showing the likelihood of pneumonia indicators.
-Setup Instructions
-Prerequisites
-A modern web browser (e.g., Chrome, Firefox, Edge).
-A working webcam (optional, for live analysis).
-Steps to Run the Project
-Clone the Repository:
+
+Capture a live image via webcam.
+
+The image is analyzed using the Teachable Machine model.
+
+Results are displayed with a prediction of potential pneumonia presence.
+
+🧩 Setup Instructions
+✅ Prerequisites
+Modern web browser (e.g., Chrome, Firefox, Edge)
+
+Webcam (optional, for live capture)
+
+⚙️ Running the Project
+Clone the repository:
+
 git clone https://github.com/Rudramani1/pneumonia-analysis.git
 cd pneumonia-analysis
+Open index.html in your browser to start the application.
